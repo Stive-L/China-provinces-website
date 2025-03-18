@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A propos de nous</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+    <link rel="icon" href="../images/favicon.png" type="image/png">
+    <script src="../js/scripts.js"></script>
+    <script src="../js/chatbot.js"></script>
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <h1>
+                <img src="../images/logo.jpg" class="logo" alt="Logo">
+                <span class="titre">Les provinces en Chine</span>
+            </h1>
+        </a>
+    </header>
+    <table>
+        <thead>
+            <tr>
+                <th> </th>
+                <th>LEE Zhuo Chan Stive</th>
+                <th>SHANG Jackie</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th> Présentation : </th>
+                <td>Eleve en L2-classique à Efrei, classe BN + G</th>
+                <th>A compléter</th>
+            </tr>
+            <tr>
+                <th> Raison d'être du projet : </th>
+                <td>Ayant visité plusieurs fois la Chine, on s'est dit qu'il était intéressant de parler de cette dernière avec ces innombrables villes avec toutes des spécifités très différentes </th>
+                <th>A compléter</th>
+            </tr>
+            <tr>
+                <th> Répartition des tâches : </th>
+                <td>Réalisation du corps du site, ainsi que les différentes pages tant en HTML, css et JS</th>
+                <th>A compléter</th>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <section id="chatbot-section">
+        <div id="chat-box"></div>
+        <input type="text" id="user-input" placeholder="Entrez votre message ici...">
+        <button id="send-button">Envoyer</button>
+    </section>
+
+    <form name = "Contact" action = "#" class = "box" id = "NousContacter" onsubmit = "return false">
+        <fieldset id = "informations">
+            <legend>Nous contacter</legend>
+            <div class="contact">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom">
+            </div>
+            <div class="contact">
+                
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom">
+            </div>
+            <div class="contact">
+                <label for="date_naissance">Date de naissance :</label>
+                <input type="date" id="date_naissance" name="date_naissance">
+            </div>
+            <div class="contact">
+                <label for="mail">Adresse mail :</label>
+                <input type="email" id="mail" name="mail">
+            </div>
+
+            <div class="contact">
+                <label for="msg">Message&nbsp;:</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
+            </fieldset>
+            
+            <div class="contact">
+                <button id = "submitBtn" type= "submit" onclick= "submitQuiz()">Envoyer</button>
+            </div>
+        </form>
+
+
+    <footer>
+        <p>&copy; 2024 LEE Zhuo Chan Stive & SHANG Jacky</p>
+    </footer>
+</body>
+</html>
