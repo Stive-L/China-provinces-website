@@ -1,0 +1,282 @@
+.titre {
+    font-size: 64px;
+    
+}
+
+body {
+
+    background-image: url('../images/fond.gif');
+    background-size: cover; /* Couvre la page */
+    background-attachment: fixed; /* Fixe l'image de fond */
+    color: white;
+    font-family: 'Comfortaa';
+    display: flex;
+    flex-direction: column;
+}
+
+
+body a {
+    color: white;
+}
+
+
+body p {
+    text-align: center;
+    color: white;
+}
+
+
+ul{
+    color : white;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+
+body h1 {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    padding: 12px;
+    margin: 0 auto; /* Centrer le conteneur */
+    max-width: 1000px; /* Largeur maximale du conteneur */
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Distance entre chaque bloc de navigation */
+    flex-wrap: wrap; /* Mise en page responsive */
+}
+.card {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 2px solid red;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-size: cover; /* Image qui couvre tout le bloc */
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden; /* Assurer que l'image ne dépasse pas le bloc */
+}
+.card p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin: 0;
+    position: relative;
+    z-index: 1; /* Assurer que le texte est au-dessus de l'image */
+}
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Couvrir le bloc sans déformer l'image */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0; /* Placer l'image derrière le texte */
+}
+
+
+nav {
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Distance entre chaque bloc de navigation */
+    flex-wrap: wrap; /* Surtout mise en page pour les téléphones */
+}
+
+
+nav a {
+    padding: 12px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    background-size:cover; /* Image qui couvre tout le bloc */
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border : 2px solid red;
+}
+
+nav a span {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+nav a.beijing {
+    background-image: url('../images/province/beijing.jpg');
+}
+
+nav a.guangdong {
+    background-image: url('../images/province/guangdong.jpg');
+}
+
+nav a.henan {
+    background-image: url('../images/province/henan.jpg');
+}
+
+nav a.shanghai {
+    background-image: url('../images/province/shanghai.jpg');
+}
+
+nav a.sichuan {
+    background-image: url('../images/province/sichuan.jpg');
+}
+
+nav a.zhejiang {
+    background-image: url('../images/province/zhejiang.jpg');
+}
+
+
+footer p {
+    color: white;
+}
+
+.tablink {
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 20px;
+    width: 33%;
+    border-radius: 10px;
+    border : 2px solid red;
+
+}
+
+
+.tablink.active-tab {
+    background-color: #FF0000; /* Changez cette couleur selon vos besoins */
+}
+  
+.tabcontent {
+    display:none;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+}
+
+.tabcontent.active {
+    display: block;
+}
+
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#user-input {
+    width: calc(100% - 100px); /* Ajustez la largeur en fonction du bouton */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+/* Style pour le bouton d'envoi */
+#send-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #00796b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#send-button:hover {
+    background-color: #004d40;
+}
+
+
+fieldset {
+    border: solid red; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    border-radius: 16px;
+    background-color : red;
+    text-align: center;
+    padding:10px;
+}
+
+fieldset .contact {
+    padding: 10px 5px;
+}
+
+
+#chatbot-section {
+    background-color: #e0f7fa;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour la boîte de chat */
+#chat-box {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+
+/* Style pour le champ de saisie */
+#user-input {
+    color: #FF0000;
+    width: calc(100% - 100px); /* Ajustez la largeur en fonction du bouton */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+/* Style pour le bouton d'envoi */
+#send-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #00796b;
+    color: red;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#send-button:hover {
+    background-color: #004d40;
+}
+

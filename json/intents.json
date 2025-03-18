@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "tag": "greet",
+      "patterns": ["Bonjour", "Salut", "Coucou"],
+      "responses": ["Bonjour ! Comment puis-je vous aider ?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Au revoir", "À bientôt", "À la prochaine"],
+      "responses": ["À bientôt ! N'hésitez pas si vous avez d'autres questions."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Merci", "Merci beaucoup", "Merci pour votre aide"],
+      "responses": ["De rien ! C'est un plaisir de vous aider."]
+    },
+    {
+      "tag": "general_info",
+      "patterns": ["Parlez-moi de la Chine", "Quelles sont les provinces de la Chine ?", "Informations générales sur la Chine"],
+      "responses": ["La Chine est un vaste pays d'Asie de l'Est avec 23 provinces, 5 régions autonomes, 4 municipalités et 2 régions administratives spéciales. Chaque région a sa propre culture, histoire et caractéristiques géographiques uniques."]
+    },
+    {
+      "tag": "guangdong_info",
+      "patterns": ["Qu'est-ce que la province du Guangdong ?", "Informations sur le Guangdong", "Quoi visiter dans le Guangdong ?"],
+      "responses": ["Le Guangdong est une province du sud de la Chine, connue pour sa cuisine délicieuse, son climat tropical et ses grandes villes comme Guangzhou et Shenzhen. C'est aussi un important centre économique et commercial."]
+    },
+    {
+      "tag": "henan_info",
+      "patterns": ["Qu'est-ce que la province du Henan ?", "Informations sur le Henan", "Quoi visiter dans le Henan ?"],
+      "responses": ["Le Henan est une province centrale de la Chine, souvent appelée le berceau de la civilisation chinoise. Elle abrite des sites historiques comme les grottes de Longmen et le temple Shaolin, connu pour les arts martiaux."]
+    },
+    {
+      "tag": "beijing_info",
+      "patterns": ["Qu'est-ce que Pékin ?", "Informations sur Pékin", "Quoi visiter à Pékin ?"],
+      "responses": ["Pékin, ou Beijing, est la capitale de la Chine et l'une des villes les plus anciennes et les plus culturelles du pays. Elle est célèbre pour la Cité Interdite, la Grande Muraille, et la Place Tian'anmen."]
+    },
+    {
+      "tag": "shanghai_info",
+      "patterns": ["Qu'est-ce que Shanghai ?", "Informations sur Shanghai", "Quoi visiter à Shanghai ?"],
+      "responses": ["Shanghai est la plus grande ville de Chine et un centre financier mondial. Connue pour ses gratte-ciels modernes, son Bund historique et ses quartiers animés, c'est une ville qui allie tradition et modernité."]
+    },
+    {
+      "tag": "sichuan_info",
+      "patterns": ["Qu'est-ce que la province du Sichuan ?", "Informations sur le Sichuan", "Quoi visiter dans le Sichuan ?"],
+      "responses": ["Le Sichuan est une province du sud-ouest de la Chine, célèbre pour sa cuisine épicée, ses pandas géants, et ses paysages montagneux. Chengdu, la capitale, est un centre culturel et gastronomique."]
+    },
+    {
+      "tag": "zhejiang_info",
+      "patterns": ["Qu'est-ce que la province du Zhejiang ?", "Informations sur le Zhejiang", "Quoi visiter dans le Zhejiang ?"],
+      "responses": ["Le Zhejiang est une province côtière de l'est de la Chine, connue pour ses villes historiques comme Hangzhou et ses paysages pittoresques comme le lac de l'Ouest. C'est aussi une région prospère avec une forte activité économique."]
+    },
+    {
+      "tag": "guangdong_cuisine",
+      "patterns": ["Quelle est la cuisine typique du Guangdong ?", "Plats célèbres du Guangdong"],
+      "responses": ["La cuisine du Guangdong, également connue sous le nom de cuisine cantonaise, est célèbre pour ses dim sum, ses fruits de mer frais et ses plats comme le porc char siu et le canard laqué."]
+    },
+    {
+      "tag": "henan_history",
+      "patterns": ["Quelle est l'histoire du Henan ?", "Origines du Henan"],
+      "responses": ["Le Henan est considéré comme le berceau de la civilisation chinoise avec des villes anciennes comme Luoyang et Kaifeng. Il a une histoire riche marquée par de nombreuses dynasties et est le site de nombreuses découvertes archéologiques importantes."]
+    },
+    {
+      "tag": "beijing_landmarks",
+      "patterns": ["Quels sont les monuments célèbres de Pékin ?", "Sites à voir à Pékin"],
+      "responses": ["Pékin abrite de nombreux sites historiques célèbres, notamment la Cité Interdite, le Temple du Ciel, la Grande Muraille, et le Palais d'Été."]
+    },
+    {
+      "tag": "shanghai_activities",
+      "patterns": ["Quelles activités faire à Shanghai ?", "Que faire à Shanghai ?"],
+      "responses": ["À Shanghai, vous pouvez visiter le Bund, explorer les gratte-ciels de Pudong, faire du shopping à Nanjing Road, et découvrir la vieille ville de Shanghai avec son jardin Yu."]
+    },
+    {
+      "tag": "sichuan_pandas",
+      "patterns": ["Où voir des pandas dans le Sichuan ?", "Réserve de pandas du Sichuan"],
+      "responses": ["Le Sichuan est célèbre pour ses pandas géants. Vous pouvez visiter le Centre de recherche sur les pandas géants de Chengdu pour voir ces animaux emblématiques de près."]
+    },
+    {
+      "tag": "zhejiang_scenery",
+      "patterns": ["Quels sont les paysages célèbres du Zhejiang ?", "Sites naturels du Zhejiang"],
+      "responses": ["Le Zhejiang est connu pour ses paysages magnifiques, comme le lac de l'Ouest à Hangzhou, les montagnes Huangshan, et les villages de thé de Longjing."]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["Je suis désolé, je ne suis pas sûr de comprendre. Pouvez-vous reformuler votre question ?"]
+    }
+  ]
+}
